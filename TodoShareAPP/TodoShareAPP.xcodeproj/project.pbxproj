@@ -15,6 +15,8 @@
 		2844DA7F2935AF4D00FE5148 /* TodoShareAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2844DA7E2935AF4D00FE5148 /* TodoShareAPPUITests.swift */; };
 		2844DA812935AF4D00FE5148 /* TodoShareAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2844DA802935AF4D00FE5148 /* TodoShareAPPUITestsLaunchTests.swift */; };
 		2844DA8E2936037C00FE5148 /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2844DA8D2936037C00FE5148 /* MyListView.swift */; };
+		2862A0F5293734CB0043E0A3 /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2862A0F4293734CB0043E0A3 /* ListContentView.swift */; };
+		28929391293731E700C05C7A /* WriteTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28929390293731E700C05C7A /* WriteTodoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2844DA7E2935AF4D00FE5148 /* TodoShareAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoShareAPPUITests.swift; sourceTree = "<group>"; };
 		2844DA802935AF4D00FE5148 /* TodoShareAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoShareAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2844DA8D2936037C00FE5148 /* MyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
+		2862A0F4293734CB0043E0A3 /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
+		28929390293731E700C05C7A /* WriteTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteTodoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				2844DA8D2936037C00FE5148 /* MyListView.swift */,
+				28929390293731E700C05C7A /* WriteTodoView.swift */,
+				2862A0F4293734CB0043E0A3 /* ListContentView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -272,7 +278,9 @@
 			files = (
 				2844DA8E2936037C00FE5148 /* MyListView.swift in Sources */,
 				2844DA652935AF4B00FE5148 /* ContentView.swift in Sources */,
+				28929391293731E700C05C7A /* WriteTodoView.swift in Sources */,
 				2844DA632935AF4B00FE5148 /* TodoShareAPPApp.swift in Sources */,
+				2862A0F5293734CB0043E0A3 /* ListContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct TodoShareAPPApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().accentColor(.orange)
         }
     }
 }

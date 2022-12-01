@@ -5,17 +5,35 @@
 //  Created by 시혁 on 2022/11/29.
 //
 
+    /** 고정된 리스트 를 보여주는 곳
+    ScrollView 로 List 만 을 나타낼 것
+    Title 은 ScrollView X
+    CheckBox 로 체크가 가능한 리스트 ( 체크 를 했을 때 어떻게 자동으로 Data에 반영하지?
+            
+    **/
 import SwiftUI
 
 struct MyListView: View {
-
-
+    /// 데이터
+    
+    
+   
+    
     var body: some View {
+        
         NavigationView{
-            VStack{
-                Text("List 가 들어 와 야 합니다")
-            }
-            .navigationBarTitle("Main List 표현 부분 ", displayMode: .inline)
+            VStack(alignment: .center){
+               HeaderView()
+                Spacer()
+                ScrollView{
+                    Text("asd")
+                    Text("asd")
+                    Text("asd")
+                    Text("asd")
+                }
+                
+            }//title hiden
+            
             .navigationBarItems(
                 trailing: NavigationLink(
                 destination: WriteTodoView(),
@@ -23,7 +41,7 @@ struct MyListView: View {
                 Image(systemName: "square.and.pencil")
                     .imageScale(.large)
                     //.font(.system(size: 20))
-                    .foregroundColor(Color.mint)
+                    
                     }
                 )
             ) // BarItemLine
@@ -33,8 +51,10 @@ struct MyListView: View {
                     Image(systemName: "checklist")
                         .imageScale(.large)
                        // .font(.system(size: 20))
-                        .foregroundColor(Color.mint)
-                }))
+                        
+                    }
+                )
+            )// BarItemLine
         } //NavigationViewLine
     }
 }

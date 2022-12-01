@@ -21,6 +21,7 @@
 		289AD08329388784005359EF /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD08229388784005359EF /* Content.swift */; };
 		289AD0852938983F005359EF /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD0842938983F005359EF /* DateFormat.swift */; };
 		289AD0882938A89D005359EF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD0872938A89D005359EF /* HeaderView.swift */; };
+		289AD08A2938AC07005359EF /* TextLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD0892938AC07005359EF /* TextLineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		289AD08229388784005359EF /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		289AD0842938983F005359EF /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 		289AD0872938A89D005359EF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		289AD0892938AC07005359EF /* TextLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				289AD0872938A89D005359EF /* HeaderView.swift */,
+				289AD0892938AC07005359EF /* TextLineView.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				2844DA8E2936037C00FE5148 /* MyListView.swift in Sources */,
 				289AD0882938A89D005359EF /* HeaderView.swift in Sources */,
 				2844DA652935AF4B00FE5148 /* ContentView.swift in Sources */,
+				289AD08A2938AC07005359EF /* TextLineView.swift in Sources */,
 				289AD0852938983F005359EF /* DateFormat.swift in Sources */,
 				289AD08329388784005359EF /* Content.swift in Sources */,
 				28929391293731E700C05C7A /* WriteTodoView.swift in Sources */,

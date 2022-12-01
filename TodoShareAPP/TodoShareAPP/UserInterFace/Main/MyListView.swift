@@ -26,10 +26,10 @@ struct MyListView: View {
                HeaderView()
                 Spacer()
                 ScrollView{
-                    Text("asd")
-                    Text("asd")
-                    Text("asd")
-                    Text("asd")
+                    TextLineView()
+                    TextLineView()
+                    TextLineView()
+                    TextLineView()
                 }
                 
             }//title hiden
@@ -45,17 +45,9 @@ struct MyListView: View {
                     }
                 )
             ) // BarItemLine
-            .navigationBarItems(trailing: NavigationLink(
-                destination: ListContentView(),
-                label: {
-                    Image(systemName: "checklist")
-                        .imageScale(.large)
-                       // .font(.system(size: 20))
-                        
-                    }
-                )
-            )// BarItemLine
+
         } //NavigationViewLine
+        //.onAppear()
     }
 }
 

@@ -18,10 +18,10 @@
 		2862A0F5293734CB0043E0A3 /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2862A0F4293734CB0043E0A3 /* ListContentView.swift */; };
 		2862A0F9293746720043E0A3 /* TitleLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2862A0F8293746720043E0A3 /* TitleLine.swift */; };
 		28929391293731E700C05C7A /* WriteTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28929390293731E700C05C7A /* WriteTodoView.swift */; };
-		289AD08329388784005359EF /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD08229388784005359EF /* Content.swift */; };
-		289AD0852938983F005359EF /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD0842938983F005359EF /* DateFormat.swift */; };
 		289AD0882938A89D005359EF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD0872938A89D005359EF /* HeaderView.swift */; };
 		289AD08A2938AC07005359EF /* TextLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD0892938AC07005359EF /* TextLineView.swift */; };
+		289AD08C2938C29E005359EF /* TextLineVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD08B2938C29E005359EF /* TextLineVIewModel.swift */; };
+		289AD08E2938C5D0005359EF /* TodoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD08D2938C5D0005359EF /* TodoContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +57,10 @@
 		2862A0F4293734CB0043E0A3 /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
 		2862A0F8293746720043E0A3 /* TitleLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLine.swift; sourceTree = "<group>"; };
 		28929390293731E700C05C7A /* WriteTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteTodoView.swift; sourceTree = "<group>"; };
-		289AD08229388784005359EF /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
-		289AD0842938983F005359EF /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 		289AD0872938A89D005359EF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		289AD0892938AC07005359EF /* TextLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLineView.swift; sourceTree = "<group>"; };
+		289AD08B2938C29E005359EF /* TextLineVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLineVIewModel.swift; sourceTree = "<group>"; };
+		289AD08D2938C5D0005359EF /* TodoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 		2844DA612935AF4B00FE5148 /* TodoShareAPP */ = {
 			isa = PBXGroup;
 			children = (
-				2862A0FA29383D780043E0A3 /* Enety */,
+				2862A0FA29383D780043E0A3 /* Model */,
 				2844DA622935AF4B00FE5148 /* TodoShareAPPApp.swift */,
 				289AD08129387EF7005359EF /* UserInterFace */,
 				2844DA662935AF4D00FE5148 /* Assets.xcassets */,
@@ -174,13 +174,13 @@
 			path = List;
 			sourceTree = "<group>";
 		};
-		2862A0FA29383D780043E0A3 /* Enety */ = {
+		2862A0FA29383D780043E0A3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				289AD08229388784005359EF /* Content.swift */,
-				289AD0842938983F005359EF /* DateFormat.swift */,
+				289AD08B2938C29E005359EF /* TextLineVIewModel.swift */,
+				289AD08D2938C5D0005359EF /* TodoContent.swift */,
 			);
-			path = Enety;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		289AD08129387EF7005359EF /* UserInterFace */ = {
@@ -332,11 +332,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2844DA8E2936037C00FE5148 /* MyListView.swift in Sources */,
+				289AD08C2938C29E005359EF /* TextLineVIewModel.swift in Sources */,
 				289AD0882938A89D005359EF /* HeaderView.swift in Sources */,
+				289AD08E2938C5D0005359EF /* TodoContent.swift in Sources */,
 				2844DA652935AF4B00FE5148 /* ContentView.swift in Sources */,
 				289AD08A2938AC07005359EF /* TextLineView.swift in Sources */,
-				289AD0852938983F005359EF /* DateFormat.swift in Sources */,
-				289AD08329388784005359EF /* Content.swift in Sources */,
 				28929391293731E700C05C7A /* WriteTodoView.swift in Sources */,
 				2844DA632935AF4B00FE5148 /* TodoShareAPPApp.swift in Sources */,
 				2862A0F9293746720043E0A3 /* TitleLine.swift in Sources */,

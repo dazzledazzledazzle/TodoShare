@@ -32,7 +32,7 @@ struct HeaderView: View {
         }.frame(height: 50)
             .background(Color.primary.colorInvert())
             .cornerRadius(6)
-            .shadow(color: Color.primary.opacity(0.14), radius: 2, x:5, y:4)
+            //.shadow(color: Color.primary.opacity(0.14), radius: 2, x:5, y:4)
 
     }
 }

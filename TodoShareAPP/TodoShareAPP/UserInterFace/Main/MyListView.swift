@@ -16,24 +16,30 @@ import SwiftUI
 struct MyListView: View {
     /// 데이터
     
-    
+    @ObservedObject var textLineViewModel = TextLineViewModel()
    
     
     var body: some View {
         
         NavigationView{
             VStack(alignment: .center){
+                /// 상단 날짜 표시
                HeaderView()
                 Spacer()
+                
                 ScrollView{
-                    TextLineView()
-                    TextLineView()
-                    TextLineView()
-                    TextLineView()
+                    /// 입력란
+                    LazyVStack{
+                        ForEach(0..<textLineViewModel.contents.count, id: \.self){i in
+                            TextLineView(contents: $textLineViewModel.contents[i])
+                        }
+
+                    }
+                    
                 }
                 
             }//title hiden
-            
+            /// Bar Item
             .navigationBarItems(
                 trailing: NavigationLink(
                 destination: WriteTodoView(),

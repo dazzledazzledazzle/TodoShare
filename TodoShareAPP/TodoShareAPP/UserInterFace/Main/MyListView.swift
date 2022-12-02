@@ -26,7 +26,7 @@ struct MyListView: View {
                 /// 상단 날짜 표시
                HeaderView()
                 Spacer()
-                
+                TextInputView(contents: $textLineViewModel.contents)
                 ScrollView{
                     /// 입력란
                     LazyVStack{

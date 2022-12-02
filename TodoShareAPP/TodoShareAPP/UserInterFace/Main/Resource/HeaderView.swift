@@ -21,7 +21,7 @@ struct HeaderView: View {
                 RoundedRectangle(cornerRadius: 30).fill(Color.clear).frame(width: 320, height: 40)
                 HStack{
                     
-                    Text("🔥  \(today, formatter: HeaderView.dateFormat)")
+                    Text("  \(today, formatter: HeaderView.dateFormat)")
                         .fontWeight(.semibold)
                         .foregroundColor(Color.brown)
                         .font(.largeTitle)

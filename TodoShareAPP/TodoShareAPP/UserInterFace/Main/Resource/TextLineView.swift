@@ -21,12 +21,12 @@ struct TextLineView: View {
                         ZStack{
                         RoundedRectangle(cornerRadius:8)
                             .fill(Color.white)
-                            .frame(width: 31, height: 30)
-                            .shadow(color: Color.primary.opacity(0.14), radius: 3, x:2, y:5)
+                            
                         Image(systemName: "checkmark")
                             .fontWeight(.bold)
                             .foregroundColor(.orange).opacity(0.7)
-                            }
+                            }.frame(width: 31, height: 30)
+                            .shadow(color: Color.primary.opacity(0.14), radius: 3, x:2, y:5)
                     }else{
                         RoundedRectangle(cornerRadius:8).fill(Color.white).frame(width: 31, height: 30)
                           .shadow(color: Color.primary.opacity(0.14), radius: 3, x:2, y:5)
@@ -35,12 +35,16 @@ struct TextLineView: View {
                 ).padding(.leading)
                 /// content 에 check 가 true 이면 밑줄라인
                 if contents.check == true {
-                    TextField("이곳에 할 일을 적어주세요. ", text: $contents.content)
+                    TextField("", text: $contents.content, onCommit: {
+                        appendTodoList()
+                    })
                         .strikethrough()
                         .frame(alignment: .center)
                         .padding(.leading,10)
                 }else{
-                    TextField("이곳에 할 일을 적어주세요. ", text: $contents.content)
+                    TextField("", text: $contents.content, onCommit: {
+                        appendTodoList()
+                    })
                         .frame(alignment: .center)
                         .padding(.leading,10)
                 }
@@ -50,8 +54,14 @@ struct TextLineView: View {
             .padding(.leading, 22)
         //ZSTAKC
     }
+    /// check toggle
     func toggleCheckState(){
         contents.check.toggle()
+        }
+    /// add write list
+    func appendTodoList() {
+        
+
         }
     }
 

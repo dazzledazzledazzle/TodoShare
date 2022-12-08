@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct TodoShareAPPApp: App {
+    @StateObject private var dataController = DataController()
     var body: some Scene {
         WindowGroup {
-            ContentView().accentColor(.orange)
+            ContentView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
+                .accentColor(.orange)
         }
     }
 }

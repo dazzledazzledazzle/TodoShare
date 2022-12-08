@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281BFF592942053300EFEC83 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281BFF582942053300EFEC83 /* DataController.swift */; };
 		2844DA632935AF4B00FE5148 /* TodoShareAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2844DA622935AF4B00FE5148 /* TodoShareAPPApp.swift */; };
 		2844DA652935AF4B00FE5148 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2844DA642935AF4B00FE5148 /* ContentView.swift */; };
 		2844DA672935AF4D00FE5148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2844DA662935AF4D00FE5148 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		281BFF582942053300EFEC83 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		2844DA5F2935AF4B00FE5148 /* TodoShareAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoShareAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2844DA622935AF4B00FE5148 /* TodoShareAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoShareAPPApp.swift; sourceTree = "<group>"; };
 		2844DA642935AF4B00FE5148 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			children = (
 				289AD08B2938C29E005359EF /* TextLineVIewModel.swift */,
 				289AD08D2938C5D0005359EF /* TodoContent.swift */,
+				281BFF582942053300EFEC83 /* DataController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				2844DA632935AF4B00FE5148 /* TodoShareAPPApp.swift in Sources */,
 				2862A0F9293746720043E0A3 /* TitleLine.swift in Sources */,
 				2862A0F5293734CB0043E0A3 /* ListContentView.swift in Sources */,
+				281BFF592942053300EFEC83 /* DataController.swift in Sources */,
 				287A97FF2939CFBE0022A3BB /* TextInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

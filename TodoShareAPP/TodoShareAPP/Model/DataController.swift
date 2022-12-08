@@ -8,7 +8,8 @@ import CoreData
 import Foundation
 
 class DataController : ObservableObject{
-    let container = NSPersistentContainer(name: "TodoData")
+    /// 장치에 저장되는 영구 데이터 저장소
+    let container = NSPersistentContainer(name: "TodoDataModel")
     
     init() {
         container.loadPersistentStores { description, error in

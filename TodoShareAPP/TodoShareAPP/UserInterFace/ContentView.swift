@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    /// get 요청 
+    @FetchRequest(sortDescriptors: [] ) var TodoData: FetchedResults<TodoData>
+    
     private enum Tabs {
         case home, share, myPage
     }

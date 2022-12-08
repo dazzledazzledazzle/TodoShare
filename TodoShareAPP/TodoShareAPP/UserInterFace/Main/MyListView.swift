@@ -44,7 +44,7 @@ struct MyListView: View {
                 trailing: NavigationLink(
                 destination: WriteTodoView(),
                 label: {
-                Image(systemName: "square.and.pencil")
+                Image(systemName: "trash.fill")
                     .imageScale(.large)
                     //.font(.system(size: 20))
                     

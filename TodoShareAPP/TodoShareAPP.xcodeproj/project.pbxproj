@@ -23,6 +23,7 @@
 		289AD08A2938AC07005359EF /* TextLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD0892938AC07005359EF /* TextLineView.swift */; };
 		289AD08C2938C29E005359EF /* TextLineVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD08B2938C29E005359EF /* TextLineVIewModel.swift */; };
 		289AD08E2938C5D0005359EF /* TodoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AD08D2938C5D0005359EF /* TodoContent.swift */; };
+		28FBB9F82941F5780083BFE6 /* TodoDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28FBB9F62941F5780083BFE6 /* TodoDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		289AD0892938AC07005359EF /* TextLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLineView.swift; sourceTree = "<group>"; };
 		289AD08B2938C29E005359EF /* TextLineVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLineVIewModel.swift; sourceTree = "<group>"; };
 		289AD08D2938C5D0005359EF /* TodoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoContent.swift; sourceTree = "<group>"; };
+		28FBB9F72941F5780083BFE6 /* TodoDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		2844DA562935AF4B00FE5148 = {
 			isa = PBXGroup;
 			children = (
+				28FBB9F62941F5780083BFE6 /* TodoDataModel.xcdatamodeld */,
 				2844DA612935AF4B00FE5148 /* TodoShareAPP */,
 				2844DA732935AF4D00FE5148 /* TodoShareAPPTests */,
 				2844DA7D2935AF4D00FE5148 /* TodoShareAPPUITests */,
@@ -337,6 +340,7 @@
 				2844DA8E2936037C00FE5148 /* MyListView.swift in Sources */,
 				289AD08C2938C29E005359EF /* TextLineVIewModel.swift in Sources */,
 				289AD0882938A89D005359EF /* HeaderView.swift in Sources */,
+				28FBB9F82941F5780083BFE6 /* TodoDataModel.xcdatamodeld in Sources */,
 				289AD08E2938C5D0005359EF /* TodoContent.swift in Sources */,
 				2844DA652935AF4B00FE5148 /* ContentView.swift in Sources */,
 				289AD08A2938AC07005359EF /* TextLineView.swift in Sources */,
@@ -696,6 +700,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28FBB9F62941F5780083BFE6 /* TodoDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28FBB9F72941F5780083BFE6 /* TodoDataModel.xcdatamodel */,
+			);
+			currentVersion = 28FBB9F72941F5780083BFE6 /* TodoDataModel.xcdatamodel */;
+			path = TodoDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2844DA572935AF4B00FE5148 /* Project object */;
 }
